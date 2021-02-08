@@ -37,3 +37,16 @@ def add_s(array)
     array.each_with_index.collect {|word, index| index == 1 ? word : word + "s"}
 end
 
+def greet_person(f_name, l_name)
+    # f_name.chomp
+    # l_name.chomp
+    puts "Hello, #{f_name} #{l_name}!"
+end
+
+def number_of_letters(name)
+    # name.chomp
+    puts name.length
+end
+
+
+
